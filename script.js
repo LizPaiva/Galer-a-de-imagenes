@@ -6,16 +6,16 @@ const close = document.getElementById('close');
 thumbnails.forEach(thumbnail => {
     thumbnail.addEventListener('click', () => {
         lightbox.style.display = 'flex';
-        lightboxImg.src = thumbnail.src; // Mostrar la imagen grande
+        lightboxImg.src = thumbnail.src; 
     });
 });
 
 close.addEventListener('click', () => {
-    lightbox.style.display = 'none'; // Cerrar la lightbox
+    lightbox.style.display = 'none'; 
 });
 
 lightbox.addEventListener('click', () => {
-    lightbox.style.display = 'none'; // Cerrar al hacer clic fuera de la imagen
+    lightbox.style.display = 'none'; 
 });
 
 
