@@ -15,3 +15,4 @@ Puedes acceder al proyecto aquí  [enlace de GitHub Pages] (https://lizpaiva.git
 1. Clona el repositorio:
    ```bash
    git clone https://github.com/LizPaiva/Galer-a-de-imagenes.git
+
